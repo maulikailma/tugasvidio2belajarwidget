@@ -1,4 +1,5 @@
-// import 'package:belajar_widget/widgets/sample_buttom_navbar.dart';
+import 'package:flutter_application_1/sample_bottom_navbar.dart';
+// import 'package:flutter_application_1/sample_bottom_navbar.dart';
 // import 'package:belajar_widget/widgets/sample_images.dart';
 // import 'package:belajar_widget/widgets/sample_container.dart';
 // import 'package:belajar_widget/widgets/sample_padding.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
       ),
-      home: SampleListView(),
+      home: const SampleListView(),
     );
   }
 }
